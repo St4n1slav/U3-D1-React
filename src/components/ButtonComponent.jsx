@@ -1,7 +1,7 @@
 const ButtonComponent = (props) => {
   return (
     <>
-      <button>{this.props.customText}</button>
+      <button>{props.buttonText}</button>
     </>
   );
 };
